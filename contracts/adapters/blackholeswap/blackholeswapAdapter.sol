@@ -25,11 +25,11 @@ import { ProtocolAdapter } from "../ProtocolAdapter.sol";
  * @dev adapterType(), tokenType(), and getBalance() functions MUST be implemented.
  * @author Igor Sobolev <sobolev@zerion.io>
  */
-contract BlackholeswapAdapter is ProtocolAdapter {
+contract BlackHoleSwapAdapter is ProtocolAdapter {
 
     string public constant override adapterType = "Asset";
 
-    string public constant override tokenType = "blackholeswap pool token";
+    string public constant override tokenType = "BlackHoleSwap pool token";
     
     /**
      * @return Amount of Uniswap pool tokens held by the given account.
